@@ -1,0 +1,304 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  /* border-radius: 0.3vmax; */
+  overflow: hidden;
+  background-color: rgb(255, 255, 255);
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+a.nav-item {
+  font-size: 10vmax;
+  font-weight: bold;
+}
+a.space {
+  margin-left: 3vw;
+}
+
+.container1 {
+  /* height: 100vh; */
+  /* position: relative; */
+  width: 100%;
+  padding-top: 5%;
+  padding-left: 2.7%;
+  height: 100vh;
+  /* border: 2px solid red; */
+  /* background-color: #fff; */
+  background-image: url("https://presentationpictures.files.wordpress.com/2010/07/green-plant-on-white-background.jpg?w=744");
+  /* opacity: 0.9; */
+  background-size: contain;
+  align-items: center;
+  justify-content: center;
+  font-family: "Aref Ruqaa";
+}
+
+.container2 {
+  /* height: 100vh; */
+  display: flex;
+  /* background-color: royalblue; */
+  background-image: url("https://i.pinimg.com/736x/6b/81/f9/6b81f9631b24e6068a919db38ae34672.jpg");
+  background: image height 572vh;
+  background-size: cover;
+  padding: 3%;
+  width: 100%;
+  margin-top: 0;
+  margin-left: 0;
+  height: 100vh;
+  transition: 0.5s;
+  font-family: "Aref Ruqaa";
+  /* border: 2px solid red; */
+}
+
+.container2-img {
+  margin-left: -40px;
+  margin-top: -3.2%;
+}
+
+.container3 {
+  display: flex;
+  background-size: cover;
+  padding-top: 6%;
+  padding-left: 7.2%;
+  width: 100%;
+  background-image: url("https://userscontent2.emaze.com/images/eb27e56b-b295-46b6-b80f-9fda4e2fd96a/8280272b19c8ea59cec2125fcbe928fd.jpg");
+  margin-top: 0%;
+  background-position: center;
+  margin-left: 0;
+  height: 100vh;
+  transition: 0.5s;
+  font-family: "Aref Ruqaa";
+  /* border: 2px solid red; */
+}
+
+.container3 h2 {
+  margin-left: 10px;
+}
+
+.container4 {
+  display: flex;
+  background-size: cover;
+  padding-top: 6%;
+  padding-left: 7.2%;
+  width: 100%;
+  background-image: url("https://wallpaperaccess.com/full/696233.jpg");
+  margin-top: 0%;
+  background-position: center;
+  margin-left: 0;
+  height: 100vh;
+  transition: 0.5s;
+  font-family: "Aref Ruqaa";
+  /* border: 2px solid red; */
+}
+
+.highlighter h1 {
+  font-family: "Caudex";
+  justify-content: center;
+  color: #222;
+  cursor: pointer;
+  margin-left: 4%;
+  font-size: 550%;
+}
+h1 span {
+  transition: 0.7s;
+}
+
+h1:hover span:nth-child(1) {
+  margin-right: 20px;
+}
+h1:hover span:nth-child(1):after {
+  content: "'ll";
+}
+
+h1:hover span:nth-child(2) {
+  margin-right: 20px;
+}
+h1:hover span:nth-child(2):after {
+  content: "AKE IT";
+}
+
+h1:hover span {
+  color: rgb(0, 0, 0);
+  text-shadow: 0 0 10px rgb(42, 37, 37), 0 0 20px rgb(0, 0, 0),
+    0 0 40px rgb(5, 5, 5), 0 0 60px rgb(0, 0, 0), 0 0 80px rgb(0, 0, 0),
+    0 0 100px rgb(0, 0, 0);
+}
+
+.highlighter {
+  margin-bottom: 10%;
+}
+.content_details {
+  color: rgb(0, 0, 0);
+  margin-left: 4.5%;
+}
+
+/* .intro-text {
+  position: relative;
+  font-size: 200%;
+  color: rgb(0, 0, 0);
+} */
+.container-introduce {
+  padding: 2%;
+  position: absolute;
+  margin-top: 2%;
+  margin-left: 37%;
+  height: 70vh;
+  width: 55vw;
+  /* border: 1px solid red; */
+}
+.cv-btn {
+  padding: 1% 2% 2% 2%;
+  /* padding-left: 2%;
+  padding-right: 2%; */
+  border: 1px solid grey;
+  border-radius: 25%;
+  /* cursor: grab; */
+}
+.cv-btn:hover {
+  background-color: rgb(32, 31, 31);
+  color: white;
+  transition: 1s;
+  cursor: grab;
+}
+.is-anything-impossible {
+  margin-left: 4.5%;
+  margin-top: 1%;
+}
+.possible {
+  width: 90%;
+  cursor: grab;
+}
+
+.card-main1 {
+  position: absolute;
+  display: flex;
+  margin-left: 10vw;
+  margin-top: 5vw;
+  /* margin-right: 100vw; */
+  justify-content: center;
+  align-items: center;
+  max-width: 1000px;
+  flex-wrap: wrap;
+  z-index: 1;
+}
+
+.card-main1 .card1 {
+  position: relative;
+  width: 400px;
+  height: 450px;
+  box-shadow: 20px 20px 50px rgb(0, 0, 0, 0.4);
+  border-radius: 15px;
+  background: rgba(255, 255, 255, 0.1);
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  backdrop-filter: blur(6px);
+}
+
+.card-main1 .card1 .card-content1 {
+  padding: 10%;
+  text-align: center;
+}
+
+.card-main2 {
+  position: absolute;
+  display: flex;
+  margin-left: 50vw;
+  margin-top: 5vw;
+  /* margin-right: 100vw; */
+  justify-content: center;
+  align-items: center;
+  max-width: 1000px;
+  flex-wrap: wrap;
+  z-index: 1;
+}
+
+.card-main2 .card2 {
+  position: relative;
+  width: 400px;
+  height: 450px;
+  box-shadow: 20px 20px 50px rgb(0, 0, 0, 0.4);
+  border-radius: 15px;
+  background: rgba(255, 255, 255, 0.1);
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  backdrop-filter: blur(6px);
+}
+
+.card-main2 .card2 .card-content2 {
+  padding: 10%;
+  text-align: center;
+}
+
+.proj {
+  font-size: 2rem;
+}
+.nav-item-grab {
+  cursor: grab;
+}
+/* .hr1 {
+  margin-top: 0vh;
+  color: blue;
+  background-color: blue;
+} */
+.card-body1 {
+  padding-top: 0.5%;
+  padding-left: 2%;
+  width: 100%;
+  height: max-content;
+}
+.card-body1 .loc-svg {
+  margin-top: 2vh;
+  margin-left: 3vw;
+}
+.card-body1 .loc {
+  position: absolute;
+  margin-top: -3.5vh;
+  margin-left: 6vw;
+}
+.card-body1 .num-svg {
+  margin-bottom: -10vh;
+  margin-left: -3vh;
+}
+.card-body1 .num {
+  position: absolute;
+  margin-top: 0.5vh;
+  margin-left: 6vw;
+}
+
+.card-body1 .msg {
+  position: absolute;
+  margin-top: 4.5vh;
+  margin-left: 6vw;
+  padding-bottom: 1vh;
+}
+.card-body1 .msg-svg {
+  margin-bottom: -17.5vh;
+  margin-left: -3vh;
+}
+.card-body1 .Github-footer {
+  position: absolute;
+  margin-top: 5vh;
+  margin-left: 140vh;
+}
+.card-body1 .Linkedin-footer {
+  position: absolute;
+  margin-top: 5vh;
+  margin-left: 150vh;
+}
+.card-body1 .Instagram-footer {
+  position: absolute;
+  margin-top: 5vh;
+  margin-left: 160vh;
+}
+.card-body1 .Facebook-footer {
+  position: absolute;
+  margin-top: 5vh;
+  margin-left: 170vh;
+}

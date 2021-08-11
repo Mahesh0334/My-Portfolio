@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Trirong");
+@import url("https://fonts.googleapis.com/css?family=Averia Serif Libre'");
+
+@import url("https://fonts.googleapis.com/css?family=Adamina");
+
+* {
+  box-sizing: border-box;
+  outline: none;
+}
+
+body {
+  background-image: url("https://images.unsplash.com/photo-1445334387926-6a1bbaff402a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=887&q=80");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-repeat: unset;
+  font-family: "Poppins", sans-serif;
+  display: inline;
+  flex-wrap: wrap;
+  margin: 0;
+  padding-top: 3rem;
+}
+
+.nav-center {
+  font-family: "Trirong", serif;
+  margin-top: 3vh;
+}
+
+.vertical {
+  /* border-left: 1px solid lightgray; */
+  color: rgb(0, 0, 0);
+  height: 30vh;
+  width: 150vh;
+  position: flex;
+  /* background-color: #dd6007; */
+  margin-left: 35vh;
+  margin-top: -70vh;
+}
+
+.icon-name {
+  margin-left: -2vh;
+  font-family: "Trirong", serif;
+  color: rgba(12, 12, 12, 0.705);
+  /* cursor: grab; */
+}
+
+.icon-name-i {
+  margin-left: -3vh;
+}
+.icon-name-l {
+  margin-left: -3vh;
+}
+.icon-name-f {
+  margin-left: -3vh;
+}
+.btn-get-in-touch {
+  color: #00000096;
+  font-family: "Trirong", serif;
+  /*flow of color on hover*/
+  background-image: linear-gradient(
+    to right,
+    #333131 0%,
+    #c7c3c3 51%,
+    #333131 100%
+  );
+}
+.btn-get-in-touch {
+  /* margin: 10px; */
+  /* padding: 15px 45px; */
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  /* color: rgb(0, 0, 0); */
+  box-shadow: 0 0 5px #eee;
+  border-radius: 10px;
+  display: block;
+  height: 35px;
+  margin-left: 10vh;
+}
+
+.btn-get-in-touch:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  cursor: grab;
+  /* margin-left: 20vh; */
+  /* margin-right: -1vh; */
+}
+
+.nav-link {
+  color: #36393ac0;
+  font-family: "Averia Serif Libre";
+  /* font-size: 2%; */
+}
+
+.nav-link:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #3d3f41;
+  text-decoration: none;
+  cursor: grab;
+}
+.Hello {
+  font-size: 10vw;
+  margin-left: 10vh;
+  /* background-color: #61768b; */
+  margin-bottom: -2vh;
+  font-family: "Trirong", serif;
+  /* color: #75a2aa96; */
+}
+.name {
+  font-size: 4vw;
+  margin-left: 10vh;
+  font-family: "Trirong", serif;
+  /* color: #75a2aa96; */
+}
+.p2021 {
+  font-size: 1vw;
+  margin-left: 10vh;
+  font-family: "Trirong", serif;
+  /* color: #75a2aa96; */
+}
+.welcome-content {
+  margin-left: 10vh;
+}
+.lazyloaded {
+  cursor: grab;
+}

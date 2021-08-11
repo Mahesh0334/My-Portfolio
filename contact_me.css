@@ -1,0 +1,125 @@
+body {
+  background-image: url("https://images.unsplash.com/photo-1445334387926-6a1bbaff402a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=887&q=80");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-repeat: unset;
+  font-family: "Poppins", sans-serif;
+  display: inline;
+  flex-wrap: wrap;
+  margin: 0;
+  padding-top: 3rem;
+}
+
+.nav-link {
+  color: #36393ac0;
+  font-family: "Averia Serif Libre";
+  /* font-size: 2%; */
+}
+
+.nav-link:hover {
+  background-position: right center;
+  /* change the direction of the change here */
+  color: #3d3f41;
+  text-decoration: none;
+  cursor: grab;
+}
+
+.nav-center {
+  font-family: "Trirong", serif;
+  margin-top: 3vh;
+}
+
+.whatsapp {
+  position: relative;
+  /* background-color: rgba(245, 233, 214, 0.568); */
+  height: 80vh;
+  /* border: 1px solid red; */
+  width: 50%;
+  font-family: "Trirong", serif;
+  /* justify-content: center; */
+  /* content: url(index.html); */
+}
+
+.whatsapp h1 {
+  margin-left: 17.5vw;
+}
+
+.mail {
+  /* background-color: rgba(238, 216, 221, 0.568); */
+  height: 80vh;
+  /* border: 1px solid red; */
+  margin-left: 50%;
+  margin-top: -37.2%;
+  position: absolute;
+  width: 50%;
+  font-family: "Trirong", serif;
+  /* justify-content: left;
+  align-items: left; */
+}
+
+.mail h1 {
+  margin-left: 20vw;
+}
+
+.whatsapp-qr {
+  margin-top: 5%;
+  margin-left: 32%;
+}
+
+.whatsapp h5 {
+  margin-top: 5%;
+  margin-left: 4.5vw;
+  margin-bottom: 5%;
+}
+
+.mail h5 {
+  margin-top: 5%;
+  margin-left: 7vw;
+  margin-bottom: 5%;
+  color: black;
+}
+
+.btn-get-in-touch {
+  color: #00000096;
+  /* padding-left: 15vw; */
+  margin-top: 2%;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: 35vh;
+
+  font-family: "Trirong", serif;
+  /*flow of color on hover*/
+  background-image: linear-gradient(
+    to right,
+    #333131 0%,
+    #c7c3c3 51%,
+    #333131 100%
+  );
+}
+
+.btn-get-in-touch {
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  /* margin: 10px; */
+  /* padding-left: 15vw; */
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  box-shadow: 0 0 5px #eee;
+  border-radius: 10px;
+  display: block;
+  height: 35px;
+  /* margin-left: -10px; */
+}
+
+.btn-get-in-touch:hover {
+  background-position: right center;
+  /* change the direction of the change here */
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  cursor: grab;
+  /* margin-left: 20vh; */
+  /* margin-right: -1vh; */
+}
